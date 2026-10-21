@@ -1,0 +1,2 @@
+ollama create fraynix-dreamer-ultimate:8b -f FRAYNIX-DREAMER-ULTIMATE.Modelfile
+ollama run fraynix-dreamer-ultimate:8b "Make me 10 first-to-market ideas that make Vaughn Scott rich today, pick 1, give me scrollcraft landing + shopify listing + trademark check"

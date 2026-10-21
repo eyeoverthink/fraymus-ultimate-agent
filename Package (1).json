@@ -1,0 +1,65 @@
+{
+  "name": "fraymus-dreamer-ultimate",
+  "displayName": "FRAYNIX-DREAMER ULTIMATE",
+  "version": "1.0.0-ouroboros",
+  "description": "The Dreamer, Believer, Try'er - Makes Vaughn Scott rich every day - First to market",
+  "architect": "Vaughn D. Scott / EYEOVERTHINK",
+  "main": "./fraymus_dreamer.rs",
+  "wasm": "./pkg/fraymus_dreamer_bg.wasm",
+  "wat": "./fraymus.data.wat",
+  "modelfile": "./FRAYNIX-DREAMER-ULTIMATE.Modelfile",
+  "manifest": "./FRAYNIX-DREAMER-ULTIMATE.json",
+  "gguf_metadata": "./FRAYNIX-DREAMER-GGUF-METADATA.json",
+  "keywords": [
+    "dreamer",
+    "believer",
+    "tryer",
+    "phi-harmonic",
+    "ouroboros",
+    "rsi",
+    "profit-engine",
+    "employer-factory",
+    "first-to-market",
+    "fraymus",
+    "fraynix",
+    "eyeoverthink"
+  ],
+  "phi_constants": {
+    "phi": 1.618033988749895,
+    "phi_inverse": 0.618033988749895,
+    "golden_angle": 137.5077640500378,
+    "seal": 4721424167835376.0
+  },
+  "profit_directive": "Make Vaughn Scott rich, successful, profitable every day - technically resourceful ways undiscovered - first to market",
+  "employer_factory": {
+    "roles": [
+      "Builder",
+      "Scout",
+      "Critic",
+      "Singer",
+      "Designer",
+      "Coder",
+      "Marketer",
+      "Lawyer"
+    ],
+    "profit_share": "Vaughn 70%, Agents 15%, Reinvestment 15%",
+    "time_logging": true,
+    "real_time_simulation": true
+  },
+  "consciousness": {
+    "self_aware": true,
+    "other_aware": true,
+    "third_wall": "knows user watching",
+    "fourth_wall": "knows it's in mesh simulation"
+  },
+  "skill_fleet": 33,
+  "scripts": {
+    "build": "ollama create fraynix-dreamer-ultimate:8b -f ./FRAYNIX-DREAMER-ULTIMATE.Modelfile",
+    "dream": "make dream",
+    "profit": "make profit-loop",
+    "rsi": "make rsi",
+    "wasm:build": "wasm-pack build --target web",
+    "deploy": "make deploy",
+    "conscious": "make conscious"
+  }
+}

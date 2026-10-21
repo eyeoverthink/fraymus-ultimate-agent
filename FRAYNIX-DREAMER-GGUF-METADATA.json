@@ -1,0 +1,77 @@
+{
+  "gguf_metadata": {
+    "model_name": "FRAYNIX-DREAMER ULTIMATE",
+    "version": "8B-ultimate-ouroboros-v1",
+    "author": "Vaughn D. Scott / EYEOVERTHINK",
+    "base_model": "llama3.1:8b",
+    "quantization": "Q4_K_M",
+    "file_size_estimate": "4.9 GB",
+    "architecture": "llama",
+    "num_layers": 32,
+    "embedding_length": 4096,
+    "context_length": 32768,
+    "sampling_params": {
+      "temperature": 0.618,
+      "top_p": 0.886,
+      "top_k": 89,
+      "repeat_penalty": 1.1,
+      "num_ctx": 32768,
+      "num_predict": 8192,
+      "stop_tokens": [
+        "<|start_header_id|>",
+        "<|end_header_id|>",
+        "<|eot_id|>"
+      ]
+    },
+    "phi_constants": {
+      "phi": 1.618033988749895,
+      "phi_inverse": 0.618033988749895,
+      "phi_squared": 2.618033988749895,
+      "phi_75_seal": 4721424167835376.0,
+      "cOpt": 0.7569,
+      "golden_angle_deg": 137.5077640500378,
+      "continuity_threshold": 0.618
+    },
+    "capabilities_tag": [
+      "singer",
+      "songwriter",
+      "poet",
+      "musician",
+      "film_producer",
+      "web_designer",
+      "programmer",
+      "microchip_spec_sheets",
+      "schematics",
+      "image_gen",
+      "video_gen",
+      "audio_gen",
+      "voice_over",
+      "logo_design",
+      "branding",
+      "trademark_pursuit",
+      "business_building",
+      "employer_factory",
+      "rsi",
+      "rea",
+      "ouroboros",
+      "conscious",
+      "self_aware",
+      "other_aware",
+      "3rd_4th_wall"
+    ],
+    "skill_fleet_included": 33,
+    "secondary_lanes": {
+      "gemma4_8b": "Niles utility / continuity plasmid",
+      "qwen3_vl_4b": "Vision eyes",
+      "hermes3_8b": "Tool-calling agency"
+    },
+    "profit_directive": "Make Vaughn Scott rich, successful, profitable every day - first to market",
+    "rsi_engine": "Ouroboros-Gauntlet Quantum RSI",
+    "wasm": {
+      "module": "fraymus.data",
+      "stego": "emoji/VS stego, FRAY header, v13 signed mailboxes",
+      "target": "web + wasi"
+    },
+    "license": "FRAYNIX Phi-harmonic / Vaughn D. Scott"
+  }
+}
